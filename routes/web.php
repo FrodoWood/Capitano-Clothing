@@ -21,7 +21,12 @@ Route::get('/about', function(){
     return view('about');
 });
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/men', [ProductController::class, 'index']);
+Route::get('/women', [ProductController::class, 'index']);
 
 Route::get('/men', [ProductController::class, 'show']);
 Route::get('/women', [ProductController::class, 'show']);
