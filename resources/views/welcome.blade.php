@@ -19,13 +19,14 @@ footer {
 <nav>Navigation Bar will be here</nav>
 <br>
 
-
+NOTE: HOMEPAGE PIC IN GROUP
 <head>
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <h1> Capitano Clothing</h1>
   <img src="{{URL('images/drew-beamer-Vc1pJfvoQvY-unsplash.jpg')}}" alt="Banner Image" style="width:90%; height:300px"/>
+  <script scr= "app.js"> </script>
 </head>
 
 <body>
@@ -59,13 +60,7 @@ footer {
 
   
   <!--USE BOOTSTRAP-->
-
   
-
-
-<!-- put in a separate js file then link-->
-<!--it doesnt work when I put it in a separate page-->
-
 <script>
 let Index = 1;
 displaySlides(Index);
@@ -90,6 +85,7 @@ function displaySlides(n) {
 
 </script>
 
+
 </section>
 
 <br><br>
@@ -110,6 +106,13 @@ function displaySlides(n) {
 </body>
 
 <br><br><br><br>
+
+
+<!--Footer: resources/views/partials? 
+get laracast video. pa bezwn ekrir code pu footer lo tu paz directly. kpb ekrir
+en fwa apr u ekrir en code ki fer li show up lo lezot paz
+https://www.phpflow.com/php/simple-laravel-layouts-using-blade-bootstrap-theme/
+-->
 
 <footer>
  

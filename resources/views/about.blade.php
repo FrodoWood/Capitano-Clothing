@@ -38,6 +38,10 @@
 
     <h3>Company History</h3>
 
+    <h3>Culture? (can go under values?)</h3>
+
     <h3>FAQs (optional)</h3>
+
+    
 </body>
 </html>
